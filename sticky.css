@@ -42,21 +42,28 @@ section{
 
 .logo{
     /* background-color: rgb(235, 97, 120); */
-    /* margin: 2rem; */
+    margin: 1rem;
     /* z-index: 400; */
     width: 3rem;
     aspect-ratio: 1;
+
 }
 .mobile-nav-toggle{
     display: none;
 }
 .primary-navigation{
     padding-right:3rem;
+    text-decoration: none;
     margin:0;
     list-style: none;
     text-decoration: none;
     background:hsl(0 0 100% );
     backdrop-filter: blur(10rem);
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
 }
 .intro-content{
       color:white
@@ -86,7 +93,7 @@ section{
     gap:var(--gap,3rem);
 }
 
-@media(max-width:35em){
+@media(max-width:37em){
     .primary-navigation{
         --gap:3rem;
         inset: 0 0 0 30%;
