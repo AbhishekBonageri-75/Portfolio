@@ -84,7 +84,36 @@ a{
     font-weight: bold;
 }
 .intro-content{
-      color:white
+    /* background-color:red; */
+    /* width: 100vh; */
+      color:white;
+      align-items:center;
+      justify-content: center;
+      /* border:2px solid white; */
+      margin-left: 15rem;
+      margin-top: 10rem;
+      width: 50%;
+      /* border: 1px solid green; */
+      padding: 10px;
+}
+h3{
+    color: rgb(151, 223, 245);
+    padding-bottom:2rem;
+    font-style: normal;
+}
+h1{
+    font-size: 450%;
+}
+h2{
+    padding-top: 1rem;
+    font-size:350%;
+    color:rgb(184, 229, 243);
+}
+h5{
+    color:rgb(151, 223, 245);
+    padding-top: 3rem;
+    /* padding:3px; */
+    letter-spacing:3px;
 }
 .Intro{
     /* background-color: rgb(231, 129, 129);  */
