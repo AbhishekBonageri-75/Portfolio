@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0 ;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     /* background: linear-gradient(to left, #88959c,#2F4152); */
 }
 body{
@@ -10,10 +10,42 @@ body{
     /* background: linear-gradient(to left, #2f3436,#1e2a35); */
     background: #0B192E;
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.splash{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0B192E;
+    z-index: 99999;
+    color:white;
+    text-align: center;
+    line-height:80vh;
+    font-family:  Fredoka;
 
 }
+.splash.display-none{
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0B192E;
+    z-index: -10;
+    color:white;
+    text-align: center;
+    line-height:80vh;
+    font-family:  Fredoka;
+    transition: all 1s;
+
+}
+
 .container{
-    /* scroll-snap-type: Y mandatory; */
+    scroll-snap-type: Y proximity;
     overflow-y: scroll;
     height: 100vh;
     scroll-behavior: smooth;
@@ -23,6 +55,9 @@ section{
     scroll-snap-align: start;
     display:flex;
     flex-direction: column;
+}
+.get-in-touch{
+    cursor: pointer;
 }
 #res{
     border:1px solid #50c7ab;
@@ -55,7 +90,10 @@ section{
     margin: 1rem;
     /* z-index: 400; */
     width: 3rem;
-    aspect-ratio: 1;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;background-color:white;
+    border-radius: 30px;
+    /* aspect-ratio: 1; */
 
 }
 
@@ -135,7 +173,7 @@ h5{
 .Projects{
     /* background-color: rgb(221, 231, 129); */
 }
-.Work{
+.Experience{
     /* background-color: rgb(194, 245, 184); */
 }
 .Contact{
@@ -187,9 +225,9 @@ h5{
 
 a:hover {
     box-shadow: 0 5px 3px 0px rgba(0,0,0,.1);
-  }
+}
   
- a:hover::before, a:hover::after {
+a:hover::before, a:hover::after {
     display: block;
     content: '';
     position: absolute;
@@ -201,14 +239,14 @@ a:hover {
     border-radius: 5px;
     z-index: -1;
     animation: 1s clockwise infinite;
-  }
+}
   
-  a:hover:after {
+a:hover:after {
     background: #F3CE5E;
     animation: 2s counterclockwise infinite;
-  }
+}
   
-  @keyframes clockwise {
+@keyframes clockwise {
     0% {
       top: -5px;
       left: 0;
@@ -245,9 +283,9 @@ a:hover {
       top: -5px;
       left: 0;    
     }
-  }
+}
   
-  @keyframes counterclockwise {
+@keyframes counterclockwise {
     0% {
       top: -5px;
       right: 0;
@@ -284,9 +322,99 @@ a:hover {
       top: -5px;
       right: 0;    
     }
-  }
-  /* a:hover{
-    text-transform:uppercase;
-    /* background-color:red; */
-    border-bottom: 1px solid rgb(8, 5, 5);
-} */
+}
+
+
+div[class*=box] {
+	height: 33.33%;
+	width: 100%; 
+    padding-top: 3rem;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.box-1 { background-color: #0B192E; }
+
+
+.btnn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 200px;
+	cursor: pointer;
+    border: 1px solid #64FFDA;
+    border-radius: 20px;
+
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.btn-one {
+	color: #64FFDA;
+	transition: all 0.3s;
+	position: relative;
+    border-radius: 20px;
+    background-color: #1f385c;;
+}
+.btn-one span {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	content: '';
+	/* position: absolute; */
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	/* border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(78, 40, 40, 0.5); */
+	transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+	letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-one:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	/* background-color: rgba(255,255,255,0.1); */
+    border-radius: 20px;
+}
+.btn-one:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+
+@keyframes fadeIn {
+    to{
+        opacity:  1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
