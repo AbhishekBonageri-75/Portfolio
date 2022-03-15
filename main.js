@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded",(e)=>{
     },2000)
 })
 
+function gototab(reload)
+   {
+    window.location.hash = '#Intro';
+    window.location.reload(true);
+ }
 
 navToggle.addEventListener("click",() => {
     const visibility = primaryNav .getAttribute("data-visibility");
