@@ -72,12 +72,12 @@ section{
     background:hsl(0 0 100% );
     backdrop-filter: blur(10rem);
 }
-a:hover{
+ a:hover{
     text-transform:uppercase;
     /* background-color:red; */
     border-bottom: 1px solid rgb(8, 5, 5);
 
-}
+} 
 a{
     text-decoration:none;
     color:white;
@@ -113,7 +113,18 @@ h5{
     color:rgb(151, 223, 245);
     padding-top: 3rem;
     /* padding:3px; */
-    letter-spacing:3px;
+    font-size:100%;
+    letter-spacing:2px;
+}
+.btn{
+    padding-top: 2rem;
+}
+.get-in-touch{
+    background: #0B192E;
+    color: #64FFDA;
+    border-color: #64FFDA;
+    padding: 10px;
+    border-radius:5px
 }
 .Intro{
     /* background-color: rgb(231, 129, 129);  */
@@ -177,3 +188,103 @@ h5{
         z-index:9999;
     }
 }
+
+
+/* a:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  }
+  
+ a:hover::before, a:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #FDA8CF;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+  }
+  
+  a:hover:after {
+    background: #F3CE5E;
+    animation: 2s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  } */
