@@ -45,7 +45,7 @@ body{
 }
 
 .container{
-    scroll-snap-type: Y proximity;
+    /* scroll-snap-type: Y proximity; */
     overflow-y: scroll;
     height: 100vh;
     scroll-behavior: smooth;
@@ -70,8 +70,9 @@ section{
 
 }
 .header{
+    /* display:none; */
     color: rgb(255, 255, 255);
-    box-shadow: 10px 10px #0B192E;
+    box-shadow: 2px 2px #0B192E;
     position:fixed;
     top:0;
     z-index: 10;
@@ -81,8 +82,8 @@ section{
     display: flex;
     justify-content: space-between;
     /* background: linear-gradient(to left, #32373a,#1f2b36); */
-    background:rgba(11, 27, 46);
-    backdrop-filter: blur(10rem);
+    background:rgba(11, 27, 46 , -2);
+    backdrop-filter: blur(0.5rem);
 }
 
 .logo{
@@ -119,15 +120,15 @@ a{
 .intro-content{
     /* background-color:red; */
     /* width: 100vh; */
-      color:white;
-      align-items:center;
-      justify-content: center;
-      /* border:2px solid white; */
-      margin-left: 15rem;
-      margin-top: 10rem;
-      width: 50%;
-      /* border: 1px solid green; */
-      padding: 10px;
+    color:white;
+    align-items:center;
+    justify-content: center;
+    /* border:2px solid white; */
+    margin-left: 15rem;
+    margin-top: 10rem;
+    width: 50%;
+    /* border: 1px solid green; */
+    padding: 10px;
 }
 h3{
     color: rgb(151, 223, 245);
@@ -162,6 +163,7 @@ h5{
 .Intro{
     /* background-color: rgb(231, 129, 129);  */
     /* display: flex; */
+    /* display:none; */
     
 }
 .About{
