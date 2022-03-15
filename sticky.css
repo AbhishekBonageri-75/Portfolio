@@ -8,16 +8,20 @@
 body{
     /* background-color: #0A1930; */
     background: linear-gradient(to left, #4c5458,#2F4152);
+    overflow: hidden;
 
 }
 .container{
     scroll-snap-type: Y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 section{
     height: 100vh;
     scroll-snap-align: start;
+    display:flex;
+    flex-direction: column;
 }
 #res{
     border:1px solid #64FFDA;
@@ -31,8 +35,10 @@ section{
 }
 .header{
     color: white;
-    /* z-index: -1; */
-    /* background-color: pink; */
+    position:fixed;
+    top:0;
+    z-index: 10;
+    
     height : 13vh;
     width:100%;
     align-items: center;
@@ -48,10 +54,12 @@ section{
     aspect-ratio: 1;
 
 }
+
 .mobile-nav-toggle{
     display: none;
 }
 .primary-navigation{
+    
     padding-right:3rem;
     text-decoration: none;
     margin:0;
@@ -59,6 +67,12 @@ section{
     text-decoration: none;
     background:hsl(0 0 100% );
     backdrop-filter: blur(10rem);
+}
+a:hover{
+    text-transform:uppercase;
+    /* background-color:red; */
+    border-bottom: 1px solid rgb(8, 5, 5);
+
 }
 a{
     text-decoration:none;
