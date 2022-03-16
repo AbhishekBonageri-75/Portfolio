@@ -98,7 +98,6 @@ section{
     height: 3rem;
 
 }
-
 .mobile-nav-toggle{
     display: none;
 }
@@ -204,6 +203,18 @@ h5{
     padding-right: 30px;
 }
 
+
+.contact-icons-svg{
+    /* background-color: #CCD6F6; */
+    border-radius:5px;
+    width: 30px;
+    /* border-radius: 100px solid white; */
+    cursor: pointer;
+}
+.contact-icons-svg:hover{
+    width: 32px;
+    
+}
 
 .c-links-icon li:hover{
     color: #64FFDA;
