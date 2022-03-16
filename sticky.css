@@ -92,9 +92,10 @@ section{
     /* z-index: 400; */
     width: 3rem;
     margin-top: 1.5rem;
-    margin-left: 1.5rem;background-color:white;
-    border-radius: 30px;
+    /* margin-left: 1.5rem;background-color:white; */
+    border-radius: 1rem;
     /* aspect-ratio: 1; */
+    height: 3rem;
 
 }
 
@@ -202,6 +203,8 @@ h5{
     padding-top:2rem;
     padding-right: 30px;
 }
+
+
 .c-links-icon li:hover{
     color: #64FFDA;
     display: inline-block;
@@ -212,7 +215,11 @@ h5{
     padding-right: 30px;
     font-size: 16.5px;
 }
+
+
+
 .c-links-icon li a:hover{
+    
     color: #64FFDA;
     display: inline-block;
     padding-left:0;
@@ -552,3 +559,46 @@ div[class*=box] {
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 }
+
+input[type=text], select, textarea {
+    background-color:#0B192E;
+    color: #fff;
+    width: 85%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #64FFDA; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 1px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=email] {
+    background-color:#0B192E;
+    color: #fff;
+    width: 85%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #64FFDA; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 1px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #0B192E;
+    color: #64FFDA;
+    padding: 12px 20px;
+    border: 1px solid #64FFDA ;
+    border-radius: 4px ;
+    cursor: pointer;
+
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    font-weight: bold;
+    background: #1F375C;
+  }
