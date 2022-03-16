@@ -126,7 +126,7 @@ a{
     /* border:2px solid white; */
     margin-left: 15rem;
     margin-top: 10rem;
-    width: 50%;
+    width: 70%;
     /* border: 1px solid green; */
     padding: 10px;
 }
@@ -137,10 +137,12 @@ h3{
 }
 h1{
     font-size: 450%;
+    color:white;
+    padding-top:1rem;
 }
 h2{
     padding-top: 1rem;
-    font-size:350%;
+    font-size:300%;
     color:rgb(184, 229, 243);
 }
 h5{
@@ -171,6 +173,45 @@ h5{
 }
 .Skills{
     /* background-color: rgb(165, 129, 231); */
+}
+
+.skills-container{
+        /* background-color:pink; */
+        margin: auto;
+        height: 80vh;
+        width: 70%;
+        border: 3px solid green;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        /* display:flex; */
+        overflow:auto;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.skills-content{
+    border: 1px solid pink;
+    display: flex;
+}
+.heading{
+    border: 1px solid yellow;
+}
+.titles{
+    border: 1px solid gold;
+}
+.techstack{
+    border: 1px solid silver;
+    width: 100%;
+    color:white;
+}
+.tech-icons{
+   border: 1px solid white;
+   display:flex;
+}
+.tech-icons img{
+    width:3rem;
 }
 .Projects{
     /* background-color: rgb(221, 231, 129); */
