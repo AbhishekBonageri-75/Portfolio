@@ -3,17 +3,17 @@ const navToggle = document.querySelector(".mobile-nav-toggle");
 const splash = document.querySelector(".splash");
 
 
-// document.addEventListener("DOMContentLoaded",(e)=>{
-//     setTimeout(()=>{
-//         splash.classList.add('display-none');
-//     },2000)
-// })
+document.addEventListener("DOMContentLoaded",(e)=>{
+    setTimeout(()=>{
+        splash.classList.add('display-none');
+    },2000)
+})
 
-// function gototab(reload)
-//    {
-//     window.location.hash = '#Intro';
-//     window.location.reload(true);
-//  }
+function gototab(reload)
+   {
+    window.location.hash = '#Intro';
+    window.location.reload(true);
+ }
 
 function copyPhone(){
 //     navigator.clipboard.writeText("+1(312)-776-4840");
