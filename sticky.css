@@ -229,7 +229,7 @@ ul{
 
     margin: auto;
     height: 80vh;
-    width: 70%;
+    width: 80%;
     /* border: 3px solid green; */
     padding: 10px;
     align-items: left;
@@ -245,7 +245,7 @@ ul{
     /* position: fixed; */
     width:auto;
     height:auto;
-    margin-left: 0;
+    margin-left: 2rem;
 }
 .card-list{
     /* margin-top: 3rem; */

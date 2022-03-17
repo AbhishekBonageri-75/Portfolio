@@ -13,9 +13,12 @@ a {
 }
 
 .card-list {
+    /* background-color: 1px solid green; */
+    width: 100%;
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
+    margin-left: -10px;
+    /* overflow-x: scroll; */
 }
 
 .card-list::-webkit-scrollbar {
@@ -49,6 +52,7 @@ a {
     scroll-snap-align: start;
     clear: both;
     position: relative;
+    
 }
 
 .cardd:focus-within~.cardd, .cardd:hover~.cardd {
