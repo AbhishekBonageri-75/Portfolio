@@ -27,6 +27,10 @@ body{
     font-family:  Fredoka;
 
 }
+.append::after{
+    content: "Use CHROME for better experience";
+    color:white;
+}
 .splash.display-none{
     opacity: 0;
     width: 100%;
