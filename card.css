@@ -51,8 +51,7 @@ a {
     margin-top: 0.5rem;
     scroll-snap-align: start;
     clear: both;
-    position: relative;
-    
+    position: relative;    
 }
 
 .cardd:focus-within~.cardd, .cardd:hover~.cardd {
