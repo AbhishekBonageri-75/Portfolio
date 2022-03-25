@@ -426,6 +426,19 @@ ul {
   .contact-container {
     display: flex;
     flex-direction: column;
+    overflow: visible;
+    border: 1px solid green;
+    height: 100%;
+    width: 100%;
+  }
+  .contact-container h2 {
+    font-size: 1.5rem;
+  }
+  .contact-container h4 {
+    font-size: 0.6rem;
+  }
+  .contact-container h5 {
+    font-size: 0.5rem;
   }
 }
 
