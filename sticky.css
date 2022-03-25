@@ -574,28 +574,40 @@ ul {
     display: flex;
     flex-direction: column;
     /* overflow: visible; */
-    /* border: 1px solid green; */
+    border: 1px solid green;
     align-items: center;
     justify-content: center;
     margin-top: 7%;
-    height: 100%;
     width: 100%;
+  }
+  .c-info {
+    border: 1px solid white;
+    padding: 0;
+  }
+  .c-info h5 {
+    border: 1px solid gold;
+    margin-bottom: 0;
+  }
+  .c-info ul {
+    margin-top: 2px;
+    border: 1px solid gold;
+    /* height: 20%; */
   }
   .c-info .c-links-icon {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    /* margin-bottom: 0.5rem; */
   }
   .contact-container h2 {
-    font-size: 2rem;
+    /* font-size: 5rem; */
   }
   .contact-container h4 {
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
   .contact-container h5 {
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
   .c-info form .mrc {
     width: 100%;
