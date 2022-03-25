@@ -491,14 +491,14 @@ ul {
   }
 
   .about-heading{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: 0;
     left:0;
     width: 100%;
     margin-top: 20%;
   }
   .about-para{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:2rem  0rem ;
     /* display:inline-block; */
   }
