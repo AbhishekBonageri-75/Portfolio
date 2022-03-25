@@ -16,7 +16,7 @@ a {
   /* background-color: 1px solid green; */
   width: 100%;
   display: flex;
-  padding: 3rem;
+  padding: 1rem;
   margin-left: -10px;
   /* overflow-x: scroll; */
 }
@@ -48,7 +48,7 @@ a {
   flex-direction: column;
   transition: 0.2s;
   margin: 0;
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
   scroll-snap-align: start;
   clear: both;
   position: relative;
@@ -68,7 +68,7 @@ a {
 }
 
 .card-header {
-  margin-bottom: auto;
+  /* margin-bottom: auto; */
 }
 
 .card-header p {
