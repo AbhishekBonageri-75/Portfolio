@@ -121,7 +121,7 @@ a {
   /* font-weight: bold; */
 }
 .intro-content {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -134,13 +134,13 @@ h3 {
   font-style: normal;
 }
 h1 {
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
   font-size: 450%;
   color: white;
   padding-top: 1rem;
 }
 h2 {
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
   padding-top: 1rem;
   font-size: 300%;
   color: rgb(184, 229, 243);
@@ -151,7 +151,7 @@ h5 {
   /* padding:3px; */
   font-size: 100%;
   letter-spacing: 2px;
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
 }
 .btn {
   padding-top: 2rem;
@@ -417,7 +417,7 @@ ul {
   }
 
   .intro-content {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -429,19 +429,19 @@ ul {
     padding: 1rem;
   }
   h1 {
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     font-size: 150%;
     color: white;
     width: 100%;
   }
   h2 {
     width: 100%;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     font-size: 100%;
   }
   h5 {
     /* width: 100%; */
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     color: rgb(151, 223, 245);
     font-size: 60%;
     letter-spacing: 2px;
