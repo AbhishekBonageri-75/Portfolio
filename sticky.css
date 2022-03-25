@@ -121,7 +121,7 @@ a {
   /* font-weight: bold; */
 }
 .intro-content {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-left: 10%;
   color: white;
   display: flex;
@@ -174,7 +174,7 @@ h5 {
   /* background-color: rgb(129, 231, 217); */
 }
 .about-content {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-left: 10%;
   color: white;
   display: flex;
@@ -190,7 +190,7 @@ h5 {
 .about-para p{
   width: 70%;
   height: 10vw;
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
   display: flex;
   color:rgb(191, 220, 250);
   flex-direction: column;
@@ -199,7 +199,7 @@ h5 {
   margin-top: 1rem;
 }
 .extras{
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   margin-top:2rem;
 }
 .Skills {
@@ -211,7 +211,7 @@ h5 {
   margin: auto;
   height: 90vh;
   width: 80%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding: 10px;
   align-items: center;
   justify-content: center;
@@ -254,7 +254,7 @@ ul {
   margin: auto;
   height: 80vh;
   width: 80%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding: 10px;
   align-items: left;
   justify-content: center;
