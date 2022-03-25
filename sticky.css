@@ -450,25 +450,35 @@ ul {
     font-size: 1px;
     line-height: 100px;
   }
-  .btnn {
-    width: 100%;
-  }
+
   .contact-container {
     display: flex;
     flex-direction: column;
-    overflow: visible;
+    /* overflow: visible; */
     /* border: 1px solid green; */
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
   }
+  .c-info .c-links-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
   .contact-container h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .contact-container h4 {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   .contact-container h5 {
-    font-size: 0.5rem;
+    font-size: 1rem;
+  }
+  .c-info form .mrc {
+    width: 100%;
   }
 }
 
