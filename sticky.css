@@ -423,6 +423,10 @@ ul {
     margin-left: 0.5rem;
     width: 150%;
   }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 a:hover {
