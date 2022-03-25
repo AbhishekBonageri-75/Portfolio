@@ -121,19 +121,12 @@ a {
   /* font-weight: bold; */
 }
 .intro-content {
-  /* background-color:red; */
-  /* width: 100vh; */
-  /* height: 70vh; */
-  /* border: 1px solid green; */
+  border: 1px solid green;
   color: white;
-  align-items: center;
-  justify-content: center;
-  /* border:2px solid white; */
-  margin-left: 15rem;
-  margin-top: 15%;
-  /* max-width: 70%; */
-  /* border: 1px solid green; */
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  padding: 2rem;
 }
 h3 {
   color: rgb(151, 223, 245);
@@ -141,11 +134,13 @@ h3 {
   font-style: normal;
 }
 h1 {
+  border: 1px solid gold;
   font-size: 450%;
   color: white;
   padding-top: 1rem;
 }
 h2 {
+  border: 1px solid gold;
   padding-top: 1rem;
   font-size: 300%;
   color: rgb(184, 229, 243);
@@ -156,6 +151,7 @@ h5 {
   /* padding:3px; */
   font-size: 100%;
   letter-spacing: 2px;
+  border: 1px solid gold;
 }
 .btn {
   padding-top: 2rem;
@@ -402,32 +398,7 @@ ul {
   .primary-navigation[data-visible="true"] {
     transform: translateX(0%);
   }
-  .intro-content {
-    border: 1px solid green;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-  }
-  h1 {
-    border: 1px solid gold;
-    font-size: 250%;
-    color: white;
-    width: 100%;
-  }
-  h2 {
-    width: 100%;
-    border: 1px solid gold;
 
-    font-size: 200%;
-  }
-  h5 {
-    width: 100%;
-    border: 1px solid gold;
-    color: rgb(151, 223, 245);
-    font-size: 100%;
-    letter-spacing: 2px;
-  }
   #res {
     border: none;
     padding-left: 0;
@@ -446,8 +417,37 @@ ul {
   }
 
   .intro-content {
-    margin-left: 0.5rem;
-    width: 150%;
+    border: 1px solid green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    margin-top: 10%;
+    padding: 1rem;
+  }
+  h1 {
+    border: 1px solid gold;
+    font-size: 150%;
+    color: white;
+    width: 100%;
+  }
+  h2 {
+    width: 100%;
+    border: 1px solid gold;
+    font-size: 100%;
+  }
+  h5 {
+    /* width: 100%; */
+    border: 1px solid gold;
+    color: rgb(151, 223, 245);
+    font-size: 60%;
+    letter-spacing: 2px;
+  }
+  .btnn {
+    width: 100%;
   }
   .contact-container {
     display: flex;
