@@ -533,10 +533,6 @@ ul {
     padding:10px;
   }
 
-  .skills-container p{
-    /* padding: 1rem; */
-  }
-
   .Projects-container{
     margin-left: 0;
     width: 100%;
@@ -571,6 +567,7 @@ ul {
     /* border: 1px solid green; */
     align-items: center;
     justify-content: center;
+    margin-top: 10%;
     height: 100%;
     width: 100%;
   }
