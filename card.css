@@ -13,12 +13,12 @@ a {
 }
 
 .card-list {
-  background-color: 1px solid green;
+  /* background-color: 1px solid green; */
   width: 100%;
   display: flex;
   padding: 1rem;
   margin-left: -10px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   /* border: 1px solid #64ffda; */
 }
 

@@ -592,12 +592,14 @@ ul {
     flex-direction: column; */
     overflow: auto;
     height: 50vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .card-list {
     height: auto;
-    border: 1px solid red;
+    width: 100%;
+    overflow-x: scroll;
+    /* border: 1px solid red; */
   }
 
   .project-headings {
