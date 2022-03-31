@@ -805,17 +805,17 @@ ul {
     width: 100%;
     margin-right: 0;
     /* padding: 1rem; */
-    height: 30%;
+    height: 20%;
   }
   .extras{
     margin-top:-5%;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
   }
-  .extras h5{
+  /* .extras h5{
     padding: 0;
     /* margin-top:-2%;d */
-  }
+  } */
   .extras ul{
     padding: 0;
     /* margin-top:-2%; */
