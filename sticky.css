@@ -205,15 +205,8 @@ h5 {
   justify-content: center;
   /* margin-top: 0.5rem; */
 }
-.extras {
-  /* border: 1px solid pink; */
-  margin-top: 1rem;
-  
-}
-.extras ul {
-  display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
+.about-para h5{
+  padding-top: 0rem;
 }
 .Skills {
   /* background-color: rgb(165, 129, 231); */
